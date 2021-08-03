@@ -1,0 +1,26 @@
+.quiz_wraper {
+  width: 70%;
+}
+
+.btns_wraper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 0px;
+}
+
+.btns_wraper button {
+  background-color: #5b21b6;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.4rem 1.2rem;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Segoe UI";
+}
+
+.btns_wraper button:disabled {
+  background-color: #a78bfa;
+  color: #f5f3ff;
+}

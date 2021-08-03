@@ -1,0 +1,30 @@
+.card {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card_header {
+  background-color: #5b21b6;
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+  padding: 10px;
+  font-size: 1.3rem;
+}
+
+.card_body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  font-size: 1.1rem;
+}
+
+.card_text {
+  padding-bottom: 15px;
+}
+
+.form_control {
+  padding: 1px;
+}
