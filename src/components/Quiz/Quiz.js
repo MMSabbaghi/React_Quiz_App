@@ -27,18 +27,7 @@ const Quiz = () => {
   };
 
   const endQuizHandler = () => {
-    swal
-      .fire({
-        title: "Are you sure?",
-        text: "You won't be able to revert this!",
-        showCancelButton: true,
-        confirmButtonText: "Yes, End it!",
-      })
-      .then((isConfirmed) => {
-        if (isConfirmed) {
-          swal.fire(` Your point is : "${calculatePoint()}" `);
-        }
-      });
+    swal.fire(` Your point is : "${calculatePoint()}" `);
   };
 
   const goToNextQuestionHandler = () => {
